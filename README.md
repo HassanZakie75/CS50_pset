@@ -12,8 +12,11 @@ CS50 Problem Set Solutions
 This repository contains my solutions to the programming assignments from Harvard's CS50x Introduction to Computer Science course. Each problem set explores fundamental concepts in computer science, including:
 
 C Programming:
+
 Problem Set 1: C Basics
+
 Problem Set 2: Arrays
+
 Problem Set 3: Algorithms
 Problem Set 4: Memory
 Problem Set 5: Data Structures
