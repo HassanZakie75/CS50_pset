@@ -13,15 +13,22 @@ This repository contains my solutions to the programming assignments from Harvar
 
 C Programming:
 
-Problem Set 1: C Basics
+  Problem Set 1: C Basics
 
-Problem Set 2: Arrays
+  Problem Set 2: Arrays
 
-Problem Set 3: Algorithms
-Problem Set 4: Memory
-Problem Set 5: Data Structures
+  Problem Set 3: Algorithms
+
+  Problem Set 4: Memory
+
+  Problem Set 5: Data Structures
+
 Python Programming:
-Problem Set 6: Python
+
+  Problem Set 6: Python
+  
 Web Development:
-Problem Set 7: SQL
-Problem Set 8: HTML, CSS, and JavaScript
+
+  Problem Set 7: SQL
+  
+  Problem Set 8: HTML, CSS, and JavaScript
