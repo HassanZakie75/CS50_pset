@@ -1,0 +1,40 @@
+### 10 HTML tags used ###
+
+<!DOCTYPE html>: This declaration at the very beginning specifies the document type as HTML5.
+<html>: This tag is the root element of the HTML document and encompasses all other content.
+<head>: This section contains metadata about the document, such as the title and links to external resources like CSS and JavaScript.
+<meta>: Used within the <head> for various purposes like character encoding, viewport configuration, and search engine optimization.
+<title>: Defines the title of the webpage, appearing in the browser tab or title bar.
+<link>: Establishes a link between the HTML document and external files like CSS stylesheets (.css) for styling the page.
+<script>: Loads and executes JavaScript code, used for interactivity and dynamic behavior.
+<body>: The main content area of the webpage, where you place all the visible elements (text, images, forms, etc.).
+<nav>: Defines a navigation section, typically containing links to different parts of the website.
+<section>: Creates a thematic grouping of content within the document, often used for sections like "Home," "About," or "Contact."
+
+### 5 CSS properties used ###
+
+background-color: This property sets the background color of an element. You've used it in various places, such as:
+
+Body background: body { background-color: var(--color-base2); }
+Navbar background: .navbar { background-color: var(--color-base); }
+Custom icon box background: .iconbox { background-color: var(--color-brand); }
+color: This property defines the text color of an element. You've used it for:
+
+Body text: body { color: var(--color-body); }
+Headings: h1, h2, h3, h4, h5, h6 { color: var(--color-heading); }
+Links: a { color: var(--color-heading); }
+font-size: This property sets the size of the font for an element. You've used it for:
+
+Body font: body { font-family: var(--font-base), sans-serif; } (indirectly sets font size)
+Icon box font size: .iconbox { font-size: 32px; }
+border: This property defines the style, width, and color of an element's border. You've used it for:
+
+Navbar brand image border: .navbar-brand img { border: 8px solid var(--color-brand); }
+transition: This property specifies a smooth transition effect between different CSS styles. You've used it for:
+
+Link hover effect: a:hover { color: var(--color-brand); } (transition applies to color change)
+Card image hover effect: .card-custom:hover .card-custom-image img { transform: scale(1.1); } (transition applies to image scaling)
+Custom link hover effect: .link-custom:after { transition: all 0.4s; } (transition applies to after element animation)
+
+### Brief description ###
+I utilized JavaScript to create dynamic and interactive elements, such as animations, form validation, and AJAX requests, while Bootstrap provided a robust and responsive framework to structure and style the website efficiently.
