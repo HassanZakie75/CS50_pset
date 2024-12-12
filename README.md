@@ -5,7 +5,7 @@ Link: https://pll.harvard.edu/course/cs50-introduction-computer-science
 This file documenting my learning journey through Harvard's CS50x course. This repository contains my solutions to the problem sets, showcasing my progress in mastering C programming and problem-solving skills.
 
 Disclaimer:
-A quick word on Academic Honesty. While these solutions will help you to get through the course without too much effort, you should do your best to figure out a working solution yourself before taking a look at any of my solutions. Investing your time and energy into solving the problem sets yourself is in my opinion the only way to eventual mastery. Go ahead and take a peek at the solutions, and remember to have fun.
+A quick note on academic honesty. While these solutions are provided to aid your learning journey, it's strongly recommended to tackle each problem set on your own first. This independent effort is the most effective way to master the material. Once you've given it your best shot, feel free to reference these solutions. Most importantly, have fun exploring the world of computer science!
 
 CS50 Problem Set Solutions
 
