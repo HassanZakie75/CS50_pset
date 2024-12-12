@@ -1,0 +1,94 @@
+TOP 100 songs detail and ranking
+Ranking by danceability
++----------------------------------------+--------------+
+|                  name                  | danceability |
++----------------------------------------+--------------+
+| Yes Indeed                             | 0.964        |
+| FEFE (feat. Nicki Minaj & Murda Beatz) | 0.931        |
+| Look Alive (feat. Drake)               | 0.922        |
+| Moonlight                              | 0.921        |
+| Nonstop                                | 0.912        |
+| Walk It Talk It                        | 0.909        |
+| Bella                                  | 0.909        |
+| HUMBLE.                                | 0.908        |
+| Te Bote - Remix                        | 0.903        |
+| Taste (feat. Offset)                   | 0.884        |
++----------------------------------------+--------------+
+
+Ranked by Energy
++----------------------------------------+--------------+
+|                  name                  | danceability |
++----------------------------------------+--------------+
+| Yes Indeed                             | 0.964        |
+| FEFE (feat. Nicki Minaj & Murda Beatz) | 0.931        |
+| Look Alive (feat. Drake)               | 0.922        |
+| Moonlight                              | 0.921        |
+| Nonstop                                | 0.912        |
+| Walk It Talk It                        | 0.909        |
+| Bella                                  | 0.909        |
+| HUMBLE.                                | 0.908        |
+| Te Bote - Remix                        | 0.903        |
+| Taste (feat. Offset)                   | 0.884        |
++----------------------------------------+--------------+
+
+Ranked by Valence
++---------------------------------------------+---------+
+|                    name                     | valence |
++---------------------------------------------+---------+
+| Shape of You                                | 0.931   |
+| Finesse (Remix) [feat. Cardi B]             | 0.926   |
+| Bella                                       | 0.844   |
+| Dejala que vuelva (feat. Manuel Turizo)     | 0.839   |
+| Criminal                                    | 0.839   |
+| Dura                                        | 0.828   |
+| Sin Pijama                                  | 0.82    |
+| 1, 2, 3 (feat. Jason Derulo & De La Ghetto) | 0.794   |
+| Me Niego                                    | 0.768   |
+| Nice For What                               | 0.757   |
++---------------------------------------------+---------+
+
+Overall ranking
++----------------------------------------+---------+--------+--------------+
+|                  name                  | valence | energy | danceability |
++----------------------------------------+---------+--------+--------------+
+| Yes Indeed                             | 0.562   | 0.346  | 0.964        |
+| FEFE (feat. Nicki Minaj & Murda Beatz) | 0.376   | 0.387  | 0.931        |
+| Look Alive (feat. Drake)               | 0.595   | 0.581  | 0.922        |
+| Moonlight                              | 0.711   | 0.537  | 0.921        |
+| Nonstop                                | 0.422   | 0.412  | 0.912        |
+| Walk It Talk It                        | 0.406   | 0.628  | 0.909        |
+| Bella                                  | 0.844   | 0.493  | 0.909        |
+| HUMBLE.                                | 0.421   | 0.621  | 0.908        |
+| Te Bote - Remix                        | 0.442   | 0.675  | 0.903        |
+| Taste (feat. Offset)                   | 0.342   | 0.559  | 0.884        |
++----------------------------------------+---------+--------+--------------+
+
+The personal top 100 songs ranking are evaluated from the 3 criteria (danceability, energy and valence).
+Each criteria have different ranking on their owns. The songs that score high on these 3 criteria will be rank
+highly on the actual top 100. This only true if the person perference is high energy, high danceability and high valence.
+
+Q1- How would you characterize Aura?
+Aura its self is characterize by the average value of valence, energy and danceability
+
+From the database:
++-------------+------------+------------------+
+| avg_valence | avg_energy | avg_danceability |
++-------------+------------+------------------+
+| 0.484443    | 0.65906    | 0.71646          |
++-------------+------------+------------------+
+
+From the value of average given we can see that the person is like a high energy and high danceability musics but low valence
+meaning he/she prefered a more negative, sad and depressive songs.
+Based on the spotify website, it is shown that the auro of this listener aligh=n with the color blue.
+Blue color described as wistful or emotional, and this hue reflects listeners who seek out music to feel their feelings out loud.
+(https://newsroom.spotify.com/2021-12-01/learn-more-about-the-audio-aura-in-your-spotify-2021-wrapped-with-aura-reader-mystic-michaela/)
+
+Q2- Why calculating this aura might not be representative of the listeners?
+
+Averaging energy, danceability and valence to calculate a listener's aura is limited as it
+doesn't count a lot of other factor such as song popularity, diverse listening habits or
+emotional depth and subjective to preception of music.
+To improve this calculation, I would cosider using weighted average based on play count and recency.
+Specific audio features may have huge impacts on listerner such as timbre, harmonic content
+and rythm.
+The calculation can be further improve by using machine learning techniques.

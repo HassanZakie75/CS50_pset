@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: As the data get bigger the time take increase tremendously. Most of the time the slowest sort.
+
+sort2 uses: Merge Sort
+
+How do you know?: The amount of data does not give significant impact to time taken. The fastest sort.
+
+sort3 uses: Selection Sort
+
+How do you know?: This sort is faster than sort 1 but take longer time when the data has initially sorted out.
